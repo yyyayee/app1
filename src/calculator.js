@@ -15,8 +15,8 @@ export function Calculator2() {
             <span>{n1}</span>&nbsp;
             <button onClick={() => calculate('+')}>+</button>&nbsp;
             <button onClick={() => calculate('-')}>-</button>&nbsp;
-            <button onClick={calculate.bind('*')}>*</button>&nbsp;
-            <button onClick={calculate.bind('/')}>/</button>&nbsp;
+            <button onClick={calculate.bind(this,'*')}>*</button>&nbsp;
+            <button onClick={calculate.bind(this,'/')}>/</button>&nbsp;
             <span>{n2}</span>
         </div>
     )
