@@ -16,7 +16,7 @@ export default function MessageBox() {
         setSize(newSize)
     }
 
-    let msgboxSyle = {
+    let msgboxStyle = {
         display: 'inline-block',
         width: 350,
         fontSize: size,
@@ -27,7 +27,7 @@ export default function MessageBox() {
 
     return(
         <div style={{textAlign:'center', marginTop:20}}>
-            <div style={msgboxSyle}>{text}</div><br/><br/>
+            <div style={msgboxStyle}>{text}</div><br/><br/>
             <button onClick={onClickSetText}>ข้อความ</button>&nbsp;
             <button onClick={onClickZoomIn}>เพิ่มขนาด</button>&nbsp;
             <button onClick={() => setSize(size - 1)}>ลดขนาด</button>
