@@ -1,6 +1,6 @@
 import React from "react";
-import MessageBox from "./state-func";
+import RefsFunc from "./refs-func";
 
 export default function App() {
-  return <MessageBox/>
+  return <RefsFunc/>
 }
