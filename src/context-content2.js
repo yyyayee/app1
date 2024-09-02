@@ -20,7 +20,7 @@ export default function Content2() {
         <div style={contentStyle}>
         {
             (user)
-            ? <span>Hello {[user, setUser]}</span>
+            ? <span>Hello {user}</span>
             : <span>Please <a href="" onClick={onClickSignin}>
                 Signin</a></span>
         }
