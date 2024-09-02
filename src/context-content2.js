@@ -2,7 +2,7 @@ import React from "react";
 import { userContext } from "./context";
 
 export default function Content2() {
-    let [user, setUser] = React.useState('')
+    let [user, setUser] = React.useContext(userContext)
 
     const contentStyle = {
         backgroundColor : '#ddd',
