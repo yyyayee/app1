@@ -12,7 +12,7 @@ export default class Products extends React.Component {
 
     render() {
         return(
-            <table>
+            <table border="1">
                 <tr><th>ชื่อ</th><th>ราคา</th></tr>
                 {
                     this.data.map(d => {
