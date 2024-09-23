@@ -1,0 +1,40 @@
+table {
+    width: 350px;
+    border-collapse: collapse;
+    margin: auto;
+    border: 1px solid black;
+}
+
+th {
+    background-color: lightgray;
+    color: green;
+}
+
+th, td {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+td:nth-child(2) {
+    text-align: center;
+}
+
+.nav {
+    background-color: #ced;
+    padding: 7px;
+    text-align: center;
+    margin: 15px;
+}
+
+.menu {
+    color: blue;
+    text-decoration: none;
+    padding: 2px 5px;
+}
+
+.active_menu {
+    color: red;
+    background-color: yellow;
+    text-decoration: none;
+    padding: 2px 5px;
+}
